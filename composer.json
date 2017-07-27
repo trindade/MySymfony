@@ -3,6 +3,7 @@
     "description": "",
     "license": "MIT",
     "require": {
-        "propel/sf-propel-o-r-m-plugin": "dev-master"
+        "propel/sf-propel-o-r-m-plugin": "dev-master",
+        "swiftmailer/swiftmailer": "~5.2"
     }
 }
