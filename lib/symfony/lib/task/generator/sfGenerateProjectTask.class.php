@@ -82,7 +82,7 @@ EOF;
      */
     protected function execute($arguments = array(), $options = array())
     {
-        if (file_exists('symfony')) {
+        if (file_exists('config/ProjectConfiguration.class')) {
             throw new sfCommandException(sprintf('A symfony project already exists in this directory (%s).', getcwd()));
         }
 
