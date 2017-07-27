@@ -1,0 +1,8 @@
+{
+    "name": "trindade/MySymfony",
+    "description": "",
+    "license": "MIT",
+    "require": {
+        "propel/sf-propel-o-r-m-plugin": "dev-master"
+    }
+}
