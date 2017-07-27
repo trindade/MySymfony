@@ -1,0 +1,11 @@
+*~
+.idea
+.project
+.vagrant
+/cache/*
+/config/generated-schema.xml
+/config/parameters.yml
+/log/*
+/web/uploads
+/config/databases.yml
+/vendor
