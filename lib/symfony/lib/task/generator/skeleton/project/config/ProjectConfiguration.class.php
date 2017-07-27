@@ -9,5 +9,7 @@ class ProjectConfiguration extends sfProjectConfiguration
     public function setup()
     {
 
+        sfConfig::set('sf_phing_path', sfConfig::get('sf_root_dir') . '/vendor/phing/phing');
+        sfConfig::set('sf_propel_path', sfConfig::get('sf_root_dir') . '/vendor/propel/propel1');
     }
 }
