@@ -5,5 +5,10 @@
     "require": {
         "propel/sf-propel-o-r-m-plugin": "dev-master",
         "swiftmailer/swiftmailer": "~5.2"
+    },
+    "autoload": {
+        "files": ["lib/symfony/lib/autoload/sfCoreAutoload.class.php"]
     }
+
+    
 }
